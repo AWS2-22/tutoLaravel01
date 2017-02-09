@@ -17,7 +17,7 @@
 
 			<div class="panel-body" style="padding:30px">
 			
-				<form action="{{ url('catalog') }}/{{$id}}" method="POST">
+				<form action="{{ url('catalog') }}/{{$id+1}}" method="POST">
 					{{method_field('PUT')}}
 					{{ csrf_field() }}
     
